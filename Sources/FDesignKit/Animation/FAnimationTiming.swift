@@ -12,9 +12,9 @@ import Foundation
 struct FAnimationTiming {
     
     static let oneHundred = 100
-    static let twoHundred = 100
-    static let threeHundred = 100
-    static let fourHundred = 100
-    static let fiveHundred = 100
+    static let twoHundred = 200
+    static let threeHundred = 300
+    static let fourHundred = 400
+    static let fiveHundred = 500
     
 }

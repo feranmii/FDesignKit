@@ -9,11 +9,11 @@ import Foundation
 
 // MARK: - FBorderRadius
 
-struct FBorderRadius {
+public struct FBorderRadius {
     
-    static let two = 2
-    static let four = 4
-    static let eight = 8
-    static let twelve = 12
-    static let sixteen = 16
+    let two = 2
+    let four = 4
+    let eight = 8
+    let twelve = 12
+    let sixteen = 16
 }
