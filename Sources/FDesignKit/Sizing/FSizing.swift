@@ -27,6 +27,7 @@ public struct FSizing {
     let thirtyTwo: CGFloat = 32
     let thirtySix: CGFloat = 36
     let fourty: CGFloat = 40
+    let fourtyFour: CGFloat = 40
     let fourtyEight: CGFloat = 48
     let fiftySix: CGFloat = 56
     let sixtyFour: CGFloat = 64

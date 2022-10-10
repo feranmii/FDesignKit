@@ -21,7 +21,7 @@ public struct FFonts {
         labelMedium: Font = .system(size: 16, weight: .medium),
         labelLarge: Font = .system(size: 18, weight: .medium),
         headingXSmall: Font = .system(size: 20, weight: .bold),
-        headingSmall: Font = .system(size: 24, weight: .bold),
+        headingSmall: Font = .system(size: 24, weight: .medium),
         headingMedium: Font = .system(size: 28, weight: .bold),
         headingLarge: Font = .system(size: 32, weight: .bold),
         headingXLarge: Font = .system(size: 36, weight: .bold),
