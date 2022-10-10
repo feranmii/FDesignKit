@@ -13,19 +13,22 @@ public final class FTheme: ObservableObject {
     
     public init(
         color: FColors,
+        buttonColors: FButtonColors,
         font: FFonts,
-        borderRadius: FBorderRadius,
+        borderRadius: FCornerRadius,
         sizing: FSizing)
     {
         self.color = color
+        self.buttonColors = buttonColors
         self.font = font
-        self.borderRadius = borderRadius
+        self.cornerRadius = borderRadius
         self.sizing = sizing
     }
     
     let color: FColors
+    let buttonColors: FButtonColors
     let font: FFonts
-    let borderRadius: FBorderRadius
+    let cornerRadius: FCornerRadius
     let sizing: FSizing
     
 }
@@ -33,6 +36,7 @@ public final class FTheme: ObservableObject {
 extension FTheme {
     public static let standard = FTheme(
         color: .init(),
+        buttonColors: .init(),
         font: .init(),
         borderRadius: .init(),
         sizing: .init())

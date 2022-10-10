@@ -20,7 +20,7 @@ public extension Color {
         )
     }
 
-    init?(_ hex: String) {
+    init?(hex: String) {
         var str = hex
         if str.hasPrefix("#") {
             str.removeFirst()

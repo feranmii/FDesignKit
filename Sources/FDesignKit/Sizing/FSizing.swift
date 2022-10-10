@@ -11,29 +11,29 @@ import Foundation
 
 public struct FSizing {
     
-    let two = 2
-    let four = 4
-    let six = 6
-    let eight = 8
-    let ten = 10
-    let twelve = 12
-    let fourteen = 14
-    let sixteen = 16
-    let eighteen = 18
-    let twenty = 20
-    let twentyTwo = 11
-    let twentyFour = 24
-    let twentyEight = 28
-    let thirtyTwo = 32
-    let thirtySix = 36
-    let fourty = 40
-    let fourtyEight = 48
-    let fiftySix = 56
-    let sixtyFour = 64
-    let oneTwentyEight = 128
-    let oneNinetyTwo = 192
-    let twoFiftySix = 256
-    let fiveTwelve = 512
-    let tenTwentyFour = 1024
+    let two: CGFloat = 2
+    let four: CGFloat = 4
+    let six: CGFloat = 6
+    let eight: CGFloat = 8
+    let ten: CGFloat = 10
+    let twelve: CGFloat = 12
+    let fourteen: CGFloat = 14
+    let sixteen: CGFloat = 16
+    let eighteen: CGFloat = 18
+    let twenty: CGFloat = 20
+    let twentyTwo: CGFloat = 11
+    let twentyFour: CGFloat = 24
+    let twentyEight: CGFloat = 28
+    let thirtyTwo: CGFloat = 32
+    let thirtySix: CGFloat = 36
+    let fourty: CGFloat = 40
+    let fourtyEight: CGFloat = 48
+    let fiftySix: CGFloat = 56
+    let sixtyFour: CGFloat = 64
+    let oneTwentyEight: CGFloat = 128
+    let oneNinetyTwo: CGFloat = 192
+    let twoFiftySix: CGFloat = 256
+    let fiveTwelve: CGFloat = 512
+    let tenTwentyFour: CGFloat = 1024
 
 }
